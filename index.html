@@ -1,0 +1,16 @@
+<!DOCTYPE html> <!-- default element - to tell the browser that it's the HTML -->
+<html lang="en"> <!-- any form of HTML code hast to be within html tags. "lang="en" = language we're writing in is English -->
+<head> <!-- it gives info only to the browser -->
+    <title>Pokemons</title> <!-- nested element = name that appears in the tab on the top -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="center"> <!-- things that users see -->
+    <img class="title" src="https://camo.githubusercontent.com/9a84b1019fbfc91c429e7247c40bc4e33c479db973d8c8fce600352c96cf170b/68747470733a2f2f696d6775722e636f6d2f377576443367452e706e67" alt="Pokemon logo">
+    <div id="pokemon" ></div>
+    <div> <!-- thanks to this <div> buttons are not affected by the .center class -->
+    <img id="prev" class="button" src="https://camo.githubusercontent.com/78b087d605a6e17d3ca34e8725cb144d65ec36a58deab95e6a99c31662caf052/68747470733a2f2f696d6775722e636f6d2f563142715634532e706e67" alt="Left button">
+    <img id="next" class="button" src="https://camo.githubusercontent.com/b2aa06b82d8eb80b7b61a4b5015a40fc598e0685c96e18bece7b5686b56a38fa/68747470733a2f2f696d6775722e636f6d2f313348444e58552e706e67" alt="Right button">
+    </div>
+    <script src="app.js" ></script>
+</body>
+</html>
